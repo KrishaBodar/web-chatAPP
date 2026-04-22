@@ -1,0 +1,23 @@
+
+> lumora-client@1.0.0 dev
+> vite --host 0.0.0.0
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m3917[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://10.164.113.180:[1m5173[22m/[39m
+[2m10:28:45 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/styles.css[22m
+[2m10:28:46 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/AuthContext.jsx, /src/styles.css[22m
+[2m10:28:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/AuthContext.jsx, /src/styles.css[22m
+[2m10:28:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/styles.css[22m
+[2m10:28:47 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m10:28:49 AM[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/context/AuthContext.jsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m10:28:49 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/context/AuthContext.jsx[22m
+[2m10:30:14 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/BrandMark.jsx[22m
+[2m10:32:06 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/pages/ChatDashboard.jsx[22m
+[2m10:32:06 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mtailwind.config.js[22m
+[2m10:32:07 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m10:37:26 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mvite.config.js.timestamp-1776834446374-7e6d60bc4fcc9.mjs[22m
+[2m10:37:52 AM[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33mreact-router-dom[32m[39m
+[2m10:37:52 AM[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m

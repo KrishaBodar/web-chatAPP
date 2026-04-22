@@ -1,0 +1,191 @@
+[2m10:28:50 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./pages/LandingPage.jsx" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/src/App.jsx[39m:3:24
+[33m  18 |  import { Navigate, Route, Routes } from "react-router-dom";
+  19 |  import { useAuth } from "./context/AuthContext.jsx";
+  20 |  import LandingPage from "./pages/LandingPage.jsx";
+     |                           ^
+  21 |  import LoginPage from "./pages/LoginPage.jsx";
+  22 |  import RegisterPage from "./pages/RegisterPage.jsx";[39m
+      at TransformPluginContext._formatError (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+[2m10:28:50 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./pages/LandingPage.jsx" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/src/App.jsx[39m:3:24
+[33m  18 |  import { Navigate, Route, Routes } from "react-router-dom";
+  19 |  import { useAuth } from "./context/AuthContext.jsx";
+  20 |  import LandingPage from "./pages/LandingPage.jsx";
+     |                           ^
+  21 |  import LoginPage from "./pages/LoginPage.jsx";
+  22 |  import RegisterPage from "./pages/RegisterPage.jsx";[39m
+      at TransformPluginContext._formatError (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+[2m10:28:50 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?
+[2m10:28:50 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/src/main.jsx[39m:3:30
+[33m  2  |  import React from "react";
+  3  |  import ReactDOM from "react-dom/client";
+  4  |  import { BrowserRouter } from "react-router-dom";
+     |                                 ^
+  5  |  import App from "./App.jsx";
+  6  |  import { AuthProvider } from "./context/AuthContext.jsx";[39m
+      at TransformPluginContext._formatError (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m10:28:50 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./pages/LandingPage.jsx" from "src/App.jsx". Does the file exist?
+[2m10:28:50 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./pages/LandingPage.jsx" from "src/App.jsx". Does the file exist?
+[2m10:28:59 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?
+[2m10:28:59 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./pages/LandingPage.jsx" from "src/App.jsx". Does the file exist?
+[2m10:28:59 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/src/main.jsx[39m:3:30
+[33m  2  |  import React from "react";
+  3  |  import ReactDOM from "react-dom/client";
+  4  |  import { BrowserRouter } from "react-router-dom";
+     |                                 ^
+  5  |  import App from "./App.jsx";
+  6  |  import { AuthProvider } from "./context/AuthContext.jsx";[39m
+      at TransformPluginContext._formatError (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m10:28:59 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./pages/LandingPage.jsx" from "src/App.jsx". Does the file exist?
+[2m10:30:24 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?
+[2m10:30:24 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?
+[2m10:30:25 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./pages/ChatDashboard.jsx" from "src/App.jsx". Does the file exist?
+[2m10:30:25 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/src/main.jsx[39m:3:30
+[33m  2  |  import React from "react";
+  3  |  import ReactDOM from "react-dom/client";
+  4  |  import { BrowserRouter } from "react-router-dom";
+     |                                 ^
+  5  |  import App from "./App.jsx";
+  6  |  import { AuthProvider } from "./context/AuthContext.jsx";[39m
+      at TransformPluginContext._formatError (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+[2m10:30:25 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "./pages/ChatDashboard.jsx" from "src/App.jsx". Does the file exist?
+[2m10:30:25 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/src/main.jsx[39m:3:30
+[33m  2  |  import React from "react";
+  3  |  import ReactDOM from "react-dom/client";
+  4  |  import { BrowserRouter } from "react-router-dom";
+     |                                 ^
+  5  |  import App from "./App.jsx";
+  6  |  import { AuthProvider } from "./context/AuthContext.jsx";[39m
+      at TransformPluginContext._formatError (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+[2m10:30:27 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/LandingPage.jsx". Does the file exist?
+[2m10:30:27 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/RegisterPage.jsx". Does the file exist?
+[2m10:30:27 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/ForgotPasswordPage.jsx". Does the file exist?
+[2m10:30:27 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/LoginPage.jsx". Does the file exist?
+[2m10:30:27 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/components/AuthLayout.jsx". Does the file exist?
+[2m10:30:27 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/components/AuthLayout.jsx". Does the file exist?
+[2m10:30:27 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/components/AuthLayout.jsx". Does the file exist?
+[2m10:32:07 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?
+[2m10:32:07 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?
+[2m10:32:08 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/App.jsx". Does the file exist?
+[2m10:32:09 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/src/main.jsx[39m:3:30
+[33m  2  |  import React from "react";
+  3  |  import ReactDOM from "react-dom/client";
+  4  |  import { BrowserRouter } from "react-router-dom";
+     |                                 ^
+  5  |  import App from "./App.jsx";
+  6  |  import { AuthProvider } from "./context/AuthContext.jsx";[39m
+      at TransformPluginContext._formatError (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m10:32:10 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/LandingPage.jsx". Does the file exist?
+[2m10:32:10 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/LoginPage.jsx". Does the file exist?
+[2m10:32:10 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/RegisterPage.jsx". Does the file exist?
+[2m10:32:10 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/RegisterPage.jsx". Does the file exist?
+[2m10:32:10 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/App.jsx". Does the file exist?
+[2m10:32:11 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/ForgotPasswordPage.jsx". Does the file exist?
+[2m10:32:11 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/ForgotPasswordPage.jsx". Does the file exist?
+[2m10:32:11 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/components/AuthLayout.jsx". Does the file exist?
+[2m10:32:11 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/components/AuthLayout.jsx". Does the file exist?
+[2m10:32:11 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/components/AuthLayout.jsx". Does the file exist?
+[2m10:32:11 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/LoginPage.jsx". Does the file exist?
+[2m10:32:11 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/LandingPage.jsx". Does the file exist?
+[2m10:32:11 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/components/AuthLayout.jsx". Does the file exist?
+[2m10:32:14 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?
+[2m10:32:14 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "react-router-dom" from "src/main.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/src/main.jsx[39m:3:30
+[33m  2  |  import React from "react";
+  3  |  import ReactDOM from "react-dom/client";
+  4  |  import { BrowserRouter } from "react-router-dom";
+     |                                 ^
+  5  |  import App from "./App.jsx";
+  6  |  import { AuthProvider } from "./context/AuthContext.jsx";[39m
+      at TransformPluginContext._formatError (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41)
+      at TransformPluginContext.error (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16)
+      at normalizeUrl (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7)
+      at async PluginContainer.transform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18)
+      at async loadAndTransform (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27)
+      at async viteTransformMiddleware (file:///C:/Users/admin/Documents/Codex/2026-04-22-build-a-full-stack-premium-web/client/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24)
+[2m10:32:14 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/App.jsx". Does the file exist?
+[2m10:32:14 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/App.jsx". Does the file exist?
+[2m10:32:15 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/LoginPage.jsx". Does the file exist?
+[2m10:32:15 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/LandingPage.jsx". Does the file exist?
+[2m10:32:15 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/components/AuthLayout.jsx". Does the file exist?
+[2m10:32:16 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/components/AuthLayout.jsx". Does the file exist?
+[2m10:32:16 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/ForgotPasswordPage.jsx". Does the file exist?
+[2m10:32:16 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/components/AuthLayout.jsx". Does the file exist?
+[2m10:32:16 AM[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to resolve import "react-router-dom" from "src/pages/RegisterPage.jsx". Does the file exist?
